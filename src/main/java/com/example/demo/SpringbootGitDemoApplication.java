@@ -14,6 +14,7 @@ public class SpringbootGitDemoApplication {
 	public String createProduct(@PathVariable String userName,@PathVariable double amount,@PathVariable String productName) {
 		return "user name is "+userName+" product name  "+productName+" product amount"+amount;
 	}
+	@GetMapping("/gethi")
 public String justtp(){
 	return "Hi";}
 	public static void main(String[] args) {
